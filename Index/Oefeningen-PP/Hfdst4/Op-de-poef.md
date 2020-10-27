@@ -17,7 +17,7 @@
             double bedrag5 = double.Parse(Console.ReadLine());
 
             double totaal = bedrag1 + bedrag2 + bedrag3 + bedrag4 + bedrag5;
-            double weken = Math.Round((totaal / 10),MidpointRounding.ToPositiveInfinity);
+            double weken = Math.Ceiling(totaal / 10);
           
 
             Console.WriteLine($"De poef staat op {totaal} euro.");

@@ -1,4 +1,4 @@
-# Oefening 4
+# Oefenbundel 4
 
 ## 1. We bewaren in tabel “tblPersons” alle inwoners van België. Een van de gegevensvelden is de straat van de woonplaats van de inwoners.Welk datatype zal je gebruiken voor straat? Motiveer je antwoord!
 
@@ -16,4 +16,4 @@
 
 > We kunnen ook hier de lijst met steden en gemeenten van bpost gebruiken. Door de lengte te bepalen van elke postcode kunnen we terugvinden dat elke postcode uit 4 cijfers bestaat. We opteren bijgevolg voor datatype CHAR(4).
 
-- [Terug](/Index/Oefeningen-Databases/Deel2.md)
+- [Terug](../Deel2.md)

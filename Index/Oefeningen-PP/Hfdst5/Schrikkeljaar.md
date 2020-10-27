@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-     Console.Write("Geef een jaartal: ");
+            Console.Write("Geef een jaartal: ");
             double jaar = double.Parse(Console.ReadLine());
             double deelBaar400 = jaar % 400;
             double deelBaar100 = jaar % 100;

@@ -1,4 +1,4 @@
-# Oefening 1
+# Oefenbundel 1
 
 ## Database aanmaken en verwijderen
 
@@ -20,4 +20,4 @@
     DROP DATABASE `BachelorIT`;
 ```
 
-- [Terug](/Index/Oefeningen-Databases/Deel2.md)
+- [Terug](../Deel2.md)

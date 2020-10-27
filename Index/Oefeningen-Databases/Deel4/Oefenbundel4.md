@@ -1,4 +1,4 @@
-# Oefening 4
+# Oefenbundel 4
 
 ## 1.Schrijf de SQL-instructie die in de volgende informatiebehoefte voorziet.
 
@@ -22,4 +22,4 @@
         wedstrijden;
 ```
 
-- [Terug](/Index/Oefeningen-Databases/Deel4.md)
+- [Terug](../Deel4.md)

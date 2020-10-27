@@ -1,4 +1,4 @@
-# Oefening 5
+# Oefenbundel 5
 
 ## 1. Schrijf de SQL-instructie die een nieuwe database “AP” aanmaakt.
 
@@ -40,4 +40,4 @@
     SELECT * FROM AP.AFDELING;
 ```
 
-- [Terug](/Index/Oefeningen-Databases/Deel2.md)
+- [Terug](../Deel2.md)

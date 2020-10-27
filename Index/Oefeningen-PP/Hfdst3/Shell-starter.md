@@ -18,9 +18,6 @@
             Console.WriteLine("Klaar");
             process.Close();
 
-
-
-
             System.Diagnostics.Process process2 = new System.Diagnostics.Process();
             process.StartInfo.FileName = "arp";
             process.StartInfo.Arguments = "-a";

@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-        Console.Write("lengte: ");
+            Console.Write("lengte: ");
             double lengte = double.Parse(Console.ReadLine());
 
             Console.Write("breedte: ");

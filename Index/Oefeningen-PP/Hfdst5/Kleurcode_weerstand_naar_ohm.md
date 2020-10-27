@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-    int ring1 = 0;
+            int ring1 = 0;
             int ring2 = 0;
             int ring3 = 0;
 

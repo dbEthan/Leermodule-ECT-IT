@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-    enum kleuren
+        enum kleuren
         {
             zwart,
             bruin,
@@ -192,7 +192,7 @@
 # Oplossing 2
 
 ```csharp
-    enum kleuren
+        enum kleuren
         {
             zilver = -2,
             goud,

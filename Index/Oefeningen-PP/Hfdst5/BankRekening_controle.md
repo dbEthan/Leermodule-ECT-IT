@@ -1,26 +1,25 @@
 # Oplossing 1
 
 ```csharp
-     Console.Write("Geef de eerste 3 getallen: ");
-            string eerste = Console.ReadLine();
+            Console.WriteLine("Geef de eerste 3 cijfers van je bankrekeningnummer:");
+            int eerste = int.parse(Console.ReadLine());
 
-            Console.Write("Volgende 7 getallen: ");
-            string tweede = Console.ReadLine();
+            Console.WriteLine("Geef de volgende 7 cijfers van je bankrekeningnummer:");
+            int tweede = int.parse(Console.ReadLine());
 
-            Console.Write("Laatste 2 getallen; ");
+            Console.WriteLine("Geef de laatste 2 cijfers van je bankrekeningnummer:");
             int laatste = int.Parse(Console.ReadLine());
 
-            int eersteTien = Convert.ToInt32(eerste + tweede);
-            int deling = eersteTien / 97;
+            int eersteTien = ((eerste * 10000000) + tweede);
+            int rest = eersteTien % 97;
 
-            if (deling == laatste )
+            if (rest == laatste)
             {
-                Console.WriteLine("Je bankrekening is geldig");
+                Console.WriteLine("Het bankrekeningnummer is geldig!");
             }
-
             else
             {
-                Console.WriteLine("Je bankrekening is geldig");
+                Console.WriteLine("Het bankrekeningnummer is niet geldig.");
             }
 ```
 

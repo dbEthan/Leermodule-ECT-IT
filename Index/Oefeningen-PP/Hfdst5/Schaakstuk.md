@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-    enum chess
+        enum chess
         {
             pion,
             paard,

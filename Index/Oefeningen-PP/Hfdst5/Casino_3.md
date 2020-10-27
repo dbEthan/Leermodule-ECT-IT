@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-    Random casino = new Random();
+            Random casino = new Random();
             int keuzeCasino = casino.Next(1, 7);
 
 
