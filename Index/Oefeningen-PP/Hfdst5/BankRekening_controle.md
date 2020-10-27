@@ -2,10 +2,10 @@
 
 ```csharp
             Console.WriteLine("Geef de eerste 3 cijfers van je bankrekeningnummer:");
-            string eerste = Console.ReadLine();
+            int eerste = int.parse(Console.ReadLine());
 
             Console.WriteLine("Geef de volgende 7 cijfers van je bankrekeningnummer:");
-            string tweede = Console.ReadLine();
+            int tweede = int.parse(Console.ReadLine());
 
             Console.WriteLine("Geef de laatste 2 cijfers van je bankrekeningnummer:");
             int laatste = int.Parse(Console.ReadLine());
