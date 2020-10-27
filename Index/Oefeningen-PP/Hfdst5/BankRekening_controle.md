@@ -10,10 +10,8 @@
             Console.WriteLine("Geef de laatste 2 cijfers van je bankrekeningnummer:");
             int laatste = int.Parse(Console.ReadLine());
 
-            int eersteTien = Convert.ToInt32(eerste + tweede);
+            int eersteTien = ((eerste * 10000000) + tweede);
             int rest = eersteTien % 97;
-
-
 
             if (rest == laatste)
             {
