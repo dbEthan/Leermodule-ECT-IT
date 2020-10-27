@@ -1,4 +1,4 @@
-# Oefening 5
+# Oefenbundel 5
 
 ## 1. Schrijf de SQL-instructie die in de volgende informatiebehoefte voorziet.
 
@@ -152,4 +152,4 @@ Met leftpadding:
         'tblgamedefinitions'
 ```
 
-- [Terug](/Index/Oefeningen-Databases/Deel4.md)
+- [Terug](../Deel4.md)

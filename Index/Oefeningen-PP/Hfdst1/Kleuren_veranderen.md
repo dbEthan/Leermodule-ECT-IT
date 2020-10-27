@@ -12,8 +12,8 @@
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("kleur?");
             Console.ResetColor();
-            string Kleur = Console.ReadLine();
-            Console.WriteLine("Ik vind " + Kleur + " geen mooie kleur.");
+            string kleur = Console.ReadLine();
+            Console.WriteLine("Ik vind " + kleur + " geen mooie kleur.");
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Wat ");
@@ -26,8 +26,8 @@
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("graag?");
             Console.ResetColor();
-            string Eten = Console.ReadLine();
-            Console.WriteLine("Ik lust " + Kleur + " eigenlijk niet.");
+            string eten = Console.ReadLine();
+            Console.WriteLine("Ik lust " + kleur + " eigenlijk niet.");
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Wat ");
@@ -46,8 +46,8 @@
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("tijden?");
             Console.ResetColor();
-            string Boek = Console.ReadLine();
-            Console.WriteLine("Ik vind " + Boek + " wel een goed boek, maar er zijn betere.");
+            string boek = Console.ReadLine();
+            Console.WriteLine("Ik vind " + boek + " wel een goed boek, maar er zijn betere.");
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Wat ");
@@ -68,8 +68,8 @@
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("ooit?");
             Console.ResetColor();
-            string Film = Console.ReadLine();
-            Console.WriteLine(Eten + " is inderdaad een super goede film!");
+            string film = Console.ReadLine();
+            Console.WriteLine(eten + " is inderdaad een super goede film!");
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Je ");
@@ -94,8 +94,8 @@
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine("dromen?");
             Console.ResetColor();
-            string Auto = Console.ReadLine();
-            Console.WriteLine("Hahahaha, een " + Auto + "? Begin dan al maar te sparen!");
+            string auto = Console.ReadLine();
+            Console.WriteLine("Hahahaha, een " + auto + "? Begin dan al maar te sparen!");
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Je ");
@@ -106,7 +106,7 @@
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.Write("is ");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write(Eten);
+            Console.Write(eten);
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.Write(". ");
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -116,7 +116,7 @@
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("graag ");
             Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.Write(Auto);
+            Console.Write(auto);
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.Write(". ");
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
@@ -126,7 +126,7 @@
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.Write("is ");
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write(Boek);
+            Console.Write(boek);
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.Write(" en ");
             Console.ForegroundColor = ConsoleColor.Green;
@@ -138,7 +138,7 @@
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.Write("is ");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.Write(Kleur);
+            Console.Write(kleur);
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.Write(".");
             Console.ForegroundColor = ConsoleColor.Magenta;

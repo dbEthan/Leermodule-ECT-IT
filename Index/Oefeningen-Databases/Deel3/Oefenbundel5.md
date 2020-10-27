@@ -1,4 +1,4 @@
-# Oefening 5
+# Oefenbundel 5
 
 ## 1. Om de oefeningen in deze bundel te maken werken we verder met de database “Tennis3”.
 
@@ -18,4 +18,4 @@ Onderzoek hiervoor (indien nodig) hoe je een eenvoudige filterconditie kan samen
         `SPELERSNR` = 7;
 ```
 
-- [Terug](/Index/Oefeningen-Databases/Deel3.md)
+- [Terug](../Deel3.md)

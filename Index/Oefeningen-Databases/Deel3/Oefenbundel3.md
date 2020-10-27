@@ -1,4 +1,4 @@
-# Oefening 3
+# Oefenbundel 3
 
 ## 1. Om de oefeningen in deze bundel te maken gaan we een duplicaat maken van de database “Tennis”.
 
@@ -32,4 +32,4 @@ Schrijf de SQL-instructie die met één INSERT-instructie deze 3 boetes toevoegt
     (19,7,'2020-09-10',100)
 ```
 
-- [Terug](/Index/Oefeningen-Databases/Deel3.md)
+- [Terug](../Deel3.md)

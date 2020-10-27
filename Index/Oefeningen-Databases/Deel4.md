@@ -1,9 +1,9 @@
 # Deel 4 - Select instructie basics
 
-- [Oefening 1](./Deel4/Oefening1.md)
-- [Oefening 2](./Deel4/Oefening2.md)
-- [Oefening 3](./Deel4/Oefening3.md)
-- [Oefening 4](./Deel4/Oefening4.md)
-- [Oefening 5](./Deel4/Oefening5.md)
+- [Oefenbundel 1](./Deel4/Oefenbundel1.md)
+- [Oefenbundel 2](./Deel4/Oefenbundel2.md)
+- [Oefenbundel 3](./Deel4/Oefenbundel3.md)
+- [Oefenbundel 4](./Deel4/Oefenbundel4.md)
+- [Oefenbundel 5](./Deel4/Oefenbundel5.md)
 
 [Terug](../Vakken/Databases.md)
