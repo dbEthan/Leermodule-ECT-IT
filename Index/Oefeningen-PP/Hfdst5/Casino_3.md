@@ -4,7 +4,6 @@
             Random casino = new Random();
             int keuzeCasino = casino.Next(1, 7);
 
-
             Console.Write("Welke cijfer heeft de computer geworpen (1 tem 6) : ");
             int gok = int.Parse(Console.ReadLine());
 

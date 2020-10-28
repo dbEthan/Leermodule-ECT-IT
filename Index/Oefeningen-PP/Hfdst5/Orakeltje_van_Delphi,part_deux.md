@@ -11,7 +11,6 @@
 
             if (geslacht == "m" && leeftijd < 120)
             {
-               
                 Console.WriteLine($"Je zal nog {orakel.Next(0, (121 - leeftijd))} jaren leven.");
             }
             else if (geslacht =="v"  && leeftijd < 150)

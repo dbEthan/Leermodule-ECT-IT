@@ -4,7 +4,7 @@
             int resultaat1 = 0;
             int resultaat2 = 0;
             int resultaat3 = 0;
-            
+
             //VRAAG 1
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.Clear();
@@ -35,9 +35,6 @@
             string d = Console.ReadLine();
             Console.Clear();
 
-           
-
-
             switch (c)
             {
                 case "a":
@@ -48,9 +45,7 @@
                 case "c":
                     resultaat1 = +2;
                     break;
-               
             }
-
 
             switch (a)
             {
@@ -75,8 +70,6 @@
                     resultaat3 = +2;
                     break;
             }
-
-
 
             Console.WriteLine(resultaat1 + resultaat2 + resultaat3);
 ```

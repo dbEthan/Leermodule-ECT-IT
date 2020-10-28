@@ -1,7 +1,8 @@
 # Oplossing 1
 
 ```csharp
-            const double bTW = 0,21;
+            // decimal is beter voor zaken rond geld.
+            const double BTW = 0.21;
             double prijsProductmetBTW = 2.99;
             double prijsProductzonderBTW = prijsProductmetBTW - (prijsProductmetBTW * BTW);
             Console.WriteLine("De koekjes van de ALDI kosten " + prijsProductmetBTW + " euro met BTW");

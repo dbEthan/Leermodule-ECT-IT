@@ -2,7 +2,7 @@
 
 ```csharp
             double zijde;
-            
+
             Console.Write("Lengte zijde: ");
 
             zijde = Double.Parse(Console.ReadLine());

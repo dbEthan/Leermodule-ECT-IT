@@ -37,7 +37,6 @@
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(" Zwaarlijvigheid (obesitas). Verhoogde kans op allerlei aandoeningen zoals diabetes,\r\n hartaandoeningen en rugklachten. Je zou 5 tot 10 kg moeten vermageren.");
                 Console.ResetColor();
-
             }
 
             else if (40 <= BMI)
@@ -45,7 +44,10 @@
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("Ernstige zwaarlijvigheid. Je moet dringend vermageren want je gezondheid is in gevaar \r\n (of je hebt je lengte of gewicht in verkeerde eenheid ingevoerd).");
                 Console.ResetColor();
+            }
 
+            else {
+                Console.WriteLine("Rust in vrede.");
             }
 ```
 
