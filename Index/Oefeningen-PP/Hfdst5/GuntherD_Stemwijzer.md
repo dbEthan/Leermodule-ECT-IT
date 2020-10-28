@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-    Console.WriteLine("Antwoord met (j/n)");
+            Console.WriteLine("Antwoord met (j/n)");
             Console.Write("Werk je veel? ");
             string antwoord = Console.ReadLine();
 

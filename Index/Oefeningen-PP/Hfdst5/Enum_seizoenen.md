@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-     public enum Seizoenen
+        public enum Seizoenen
         {
             Winter,
             Zomer,

@@ -1,11 +1,11 @@
 # Oplossing 1
 
 ```csharp
-            const double BTW = 0,21;
-            double PrijsProductmetBTW = 2.99;
-            double PrijsProductzonderBTW = PrijsProductmetBTW - (PrijsProductmetBTW * BTW);
-            Console.WriteLine("De koekjes van de ALDI kosten " + PrijsProductmetBTW + " euro met BTW");
-            Console.WriteLine("De koekjes van de ALDI kosten " + PrijsProductzonderBTW + " euro zonder BTW");
+            const double bTW = 0,21;
+            double prijsProductmetBTW = 2.99;
+            double prijsProductzonderBTW = prijsProductmetBTW - (prijsProductmetBTW * BTW);
+            Console.WriteLine("De koekjes van de ALDI kosten " + prijsProductmetBTW + " euro met BTW");
+            Console.WriteLine("De koekjes van de ALDI kosten " + prijsProductzonderBTW + " euro zonder BTW");
 ```
 
 [Terug](../Hfdst2.md)

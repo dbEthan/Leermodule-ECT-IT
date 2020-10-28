@@ -1,4 +1,4 @@
-# Oefening 2
+# Oefenbundel 2
 
 ## 1. We bewaren in tabel “tblGameGenres” alle gekende genres. Elk genre krijgt een uniekvolgnummer, startend vanaf 1,die bewaard wordt in kolom “Id”. Er zijn een 60-tal genres gedefinieerd. Welk datatype zal je gebruiken voor deze kolom? Motiveer je antwoord
 
@@ -16,4 +16,4 @@
 
 > We opteren hier voor het datatype BIGINT UNSIGNED. Ook hier hebben we geen tekenbit nodig omdat er nooit negatieve getallen in mogen kunnen. Door te opteren voor een BIGINT kunnen we het maximaal mogelijk aantal lijnen definiëren. Aangezien Amazon wereldwijd producten verkoopt is dat geen overbodige luxe!
 
-- [Terug](/Index/Oefeningen-Databases/Deel2.md)
+- [Terug](../Deel2.md)

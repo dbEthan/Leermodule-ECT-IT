@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-    enum gewichten
+        enum gewichten
         {
             Obees,
             Zwaarlijvig,

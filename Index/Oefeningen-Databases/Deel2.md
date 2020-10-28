@@ -1,11 +1,11 @@
 # Deel 2 - Database creatie
 
-- [Oefening 1](./Deel2/Oefening1.md)
-- [Oefening 2](./Deel2/Oefening2.md)
-- [Oefening 3](./Deel2/Oefening3.md)
-- [Oefening 4](./Deel2/Oefening4.md)
-- [Oefening 5](./Deel2/Oefening5.md)
-- [Oefening 6](./Deel2/Oefening6.md)
-- [Oefening 7](./Deel2/Oefening7.md)
+- [Oefenbundel 1](./Deel2/Oefenbundel1.md)
+- [Oefenbundel 2](./Deel2/Oefenbundel2.md)
+- [Oefenbundel 3](./Deel2/Oefenbundel3.md)
+- [Oefenbundel 4](./Deel2/Oefenbundel4.md)
+- [Oefenbundel 5](./Deel2/Oefenbundel5.md)
+- [Oefenbundel 6](./Deel2/Oefenbundel6.md)
+- [Oefenbundel 7](./Deel2/Oefenbundel7.md)
 
 [Terug](../Vakken/Databases.md)

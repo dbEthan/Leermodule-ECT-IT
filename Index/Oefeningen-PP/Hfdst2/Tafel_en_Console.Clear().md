@@ -38,7 +38,6 @@
             Console.ReadLine();
             Console.Clear();
 
-
             Console.WriteLine(getal * 8);
             Console.WriteLine("Druk op enter voor de volgende lijn");
             Console.ReadLine();

@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-    Random orakel = new Random();
+            Random orakel = new Random();
 
             Console.Write("Geslacht (m/v): ");
             string geslacht = Console.ReadLine();

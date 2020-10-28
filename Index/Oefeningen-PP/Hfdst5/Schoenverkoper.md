@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-     const int schoenZonderKorting = 20;
+            const int schoenZonderKorting = 20;
             const int schoenMetKorting = 10;
 
             Console.Write("Voor hoeveel schoenen geldt de korting niet: ");

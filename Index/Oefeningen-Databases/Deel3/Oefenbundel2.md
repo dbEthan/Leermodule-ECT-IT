@@ -1,4 +1,4 @@
-# Oefening 2
+# Oefenbundel 2
 
 ## 1. Om de oefeningen in deze bundel te maken gaan we een duplicaat maken van de database “Tennis”.
 a. Kopieer de inhoud van het SQL-script van de database “Tennis”.
@@ -73,4 +73,4 @@ Opgelet! Deze kolom moet toegevoegd worden tussen kolommen “BEDRAG” en de hi
     UNIQUE(`NAAM`, `STRAAT`, `HUISNR`, `POSTCODE`);
 ```
 
-- [Terug](/Index/Oefeningen-Databases/Deel3.md)
+- [Terug](../Deel3.md)

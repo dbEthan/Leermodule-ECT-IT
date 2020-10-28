@@ -1,7 +1,7 @@
 # Oplossing 1
 
 ```csharp
-    Console.Write("Gewicht (kg): ");
+            Console.Write("Gewicht (kg): ");
             double gewicht = double.Parse(Console.ReadLine());
 
             Console.Write("Lengte (m): ");
