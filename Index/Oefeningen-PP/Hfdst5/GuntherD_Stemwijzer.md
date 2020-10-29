@@ -129,4 +129,94 @@
             }
 ```
 
+# Oplossing 2 
+
+```csharp
+            Console.WriteLine("Welkom bij GunterD's grote stemwijzer! Druk op ENTER om te beginnen.");
+            Console.ReadLine();
+            Console.Clear();
+
+            Console.WriteLine("Werk je veel? (j/n)");
+            string antwoord = Console.ReadLine();
+
+            if (antwoord == "j")
+            {
+                Console.WriteLine("Koop je soms bruin brood?");
+                antwoord = Console.ReadLine();
+                
+                if (antwoord == "j")
+                {
+                    Console.WriteLine("Ben je een seut?");
+                    antwoord = Console.ReadLine();
+
+                    if (antwoord == "j")
+                    {
+                        Console.WriteLine("Stem op CD&V!");
+                    }
+                    else if (antwoord == "n")
+                    {
+                        Console.WriteLine("Heb je vrienden?");
+                        antwoord = Console.ReadLine();
+
+                        if (antwoord == "j")
+                        {
+                            Console.WriteLine("Staat jouw wagen, huis, ... op naam van je ouders?");
+                            antwoord = Console.ReadLine();
+
+                            if (antwoord == "j")
+                            {
+                                Console.WriteLine("Stem op Open VLD!");
+                            }
+                            else if (antwoord == "n")
+                            {
+                                Console.WriteLine("Stem blanco.");
+                            }
+                        }
+                        else if (antwoord == "n")
+                        {
+                            Console.WriteLine("Stem op NVA!");
+                        }
+                    }
+                }
+                else if (antwoord == "n")
+                {
+                    Console.WriteLine("Stem op Vlaams Belang!");
+                }
+            }
+            else if (antwoord == "n")
+            {
+                Console.WriteLine("Eet je vaak quinoa?");
+                antwoord = Console.ReadLine();
+
+                if (antwoord == "j")
+                {
+                    Console.WriteLine("Stem op Groen!");
+                }
+                else if (antwoord == "n")
+                {
+                    Console.WriteLine("Krijg je vaak de schuld van alles?");
+                    antwoord = Console.ReadLine();
+
+                    if (antwoord == "j")
+                    {
+                        Console.WriteLine("Stem op SPA!");
+                    }
+                    else if (antwoord == "n")
+                    {
+                        Console.WriteLine("Geloof je nog in Sinterklaas?");
+                        antwoord = Console.ReadLine();
+
+                        if (antwoord == "j")
+                        {
+                            Console.WriteLine("Stem op PvDA!");
+                        }
+                        else if (antwoord == "n")
+                        {
+                            Console.WriteLine("Stem blanco.");
+                        }
+                    }
+                }
+            }
+```
+
 [Terug](../Hfdst5.md)
