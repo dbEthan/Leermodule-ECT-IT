@@ -1,7 +1,6 @@
 # Oplossing 1
 
 ```csharp
-    
             Console.WriteLine("Stroom(1), Spanning(2), Weerstand(3)");
             Console.Write("Wat wil je berekenen (1,2,3): ");
             int keuze = int.Parse(Console.ReadLine());

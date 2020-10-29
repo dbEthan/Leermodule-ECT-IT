@@ -36,43 +36,36 @@
                     Console.ForegroundColor = Color.Brown;
                     Console.Write($"  {r1}  ");
                     break;
-
                 case 2:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Red;
                     Console.Write($"  {r1}  ");
                     break;
-
                 case 3:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Orange;
                     Console.Write($"  {r1}  "); ;
                     break;
-
                 case 4:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Yellow;
                     Console.Write($"  {r1}  ");
                     break;
-
                 case 5:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Green;
                     Console.Write($"  {r1}  ");
                     break;
-
                 case 6:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Blue;
                     Console.Write($"  {r1}  ");
                     break;
-
                 case 7:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Purple;
                     Console.Write($"  {r1}  ");
                     break;
-
                 case 8:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Gray;
@@ -83,7 +76,9 @@
                     Console.ForegroundColor = Color.White;
                     Console.Write($"  {r1}  ");
                     break;
-
+                default:
+                    Console.WriteLine("N/A");
+                    break;
             }
 
             Console.ResetColor();
@@ -108,31 +103,26 @@
                     Console.ForegroundColor = Color.Orange;
                     Console.Write($"  {r2} ");
                     break;
-
                 case 4:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Yellow;
                     Console.Write($"  {r2} ");
                     break;
-
                 case 5:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Green;
                     Console.Write($"  {r2} ");
                     break;
-
                 case 6:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Blue;
                     Console.Write($"  {r2} ");
                     break;
-
                 case 7:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Purple;
                     Console.Write($"  {r2} ");
                     break;
-
                 case 8:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Gray;
@@ -143,9 +133,14 @@
                     Console.ForegroundColor = Color.White;
                     Console.Write($"  {r2} ");
                     break;
+                default:
+                    Console.WriteLine("N/A");
+                    break;
             }
+
             Console.ResetColor();
             Console.Write("║");
+
             switch (r3)
             {
 
@@ -154,62 +149,56 @@
                     Console.ForegroundColor = Color.Silver;
                     Console.Write($" {r3} ");
                     break;
-
                 case -1:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Gold;
                     Console.Write($" {r3} ");
                     break;
-
                 case 0:
                     Console.ForegroundColor = Color.Black;
                     Console.BackgroundColor = Color.White;
                     Console.Write($" {r3}  ");
                     break;
-
                 case 1:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Brown;
                     Console.Write($" {r3}  ");
                     break;
-
                 case 2:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Red;
                     Console.Write($" {r3}  ");
                     break;
-
                 case 3:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Orange;
                     Console.Write($" {r3}  ");
                     break;
-
                 case 4:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Yellow;
                     Console.Write($" {r3}  ");
                     break;
-
                 case 5:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Green;
                     Console.Write($" {r3}  ");
                     break;
-
                 case 6:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Blue;
                     Console.Write($" {r3}  ");
                     break;
-
                 case 7:
                     Console.ResetColor();
                     Console.ForegroundColor = Color.Purple;
                     Console.Write($" {r3}  ");
                     break;
-
+                default:
+                    Console.WriteLine("N/A");
+                    break;
             }
+
             Console.ResetColor();
             Console.Write("║");
 

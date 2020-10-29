@@ -4,7 +4,7 @@
             Console.WriteLine("Wat is je favoriete kleur?");
             string kleur = Console.ReadLine();
             Console.WriteLine("Ik vind " + kleur + " geen mooie kleur.");
-            
+
             Console.WriteLine("Wat eet jij super graag?");
             string eten = Console.ReadLine();
             Console.WriteLine("Ik lust " + kleur + " eigenlijk niet.");

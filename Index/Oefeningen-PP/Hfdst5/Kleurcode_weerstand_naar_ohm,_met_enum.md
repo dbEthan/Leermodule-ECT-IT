@@ -1,4 +1,6 @@
-# Oplossing 1
+# Oplossingen
+
+## Oplossing 1
 
 ```csharp
         enum kleuren
@@ -15,8 +17,8 @@
             grijs,
             goud,
             zilver
-
         }
+
         static void Main(string[] args)
         {
             int ring1 = 0;
@@ -189,7 +191,7 @@
 
 ```
 
-# Oplossing 2
+## Oplossing 2
 
 ```csharp
         enum kleuren
@@ -230,7 +232,5 @@
             double resultaat = ((ring1 * 10) + ring2) * Math.Pow(10, ring3);
             Console.WriteLine($"Deze weerstand heeft een waarde van {resultaat} Ohm");
         }
-
-
 
 [Terug](../Hfdst5.md)

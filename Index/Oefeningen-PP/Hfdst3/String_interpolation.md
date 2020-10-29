@@ -4,7 +4,8 @@
             Console.Write("Kies een bedrag in euro ");
             euro = Convert.ToDouble(Console.ReadLine());
 
-            double dollar = euro * 1.17;
+            const double EUR_USD_RATIO = 1.17;
+            double dollar = euro * EUR_USD_RATIO;
 
             Console.WriteLine($"{euro} EUR is gelijk aan {dollar} USD");
 
@@ -13,7 +14,7 @@
             Console.Clear();
 
             Console.WriteLine("Oefening BTW");
-           
+
             const double BTW = 0.21;
             double Prijs = 26;
             double PrijsMetBtw = ((Prijs * BTW) + Prijs);

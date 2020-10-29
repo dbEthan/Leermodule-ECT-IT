@@ -18,10 +18,8 @@
 
             double totaal = bedrag1 + bedrag2 + bedrag3 + bedrag4 + bedrag5;
             double weken = Math.Ceiling(totaal / 10);
-          
 
             Console.WriteLine($"De poef staat op {totaal} euro.");
-
 
             Console.WriteLine("*************************");
             Console.WriteLine($"Het totaal van {totaal} de poef is en zal {weken} weken duren om volledig afbetaald te worden.");

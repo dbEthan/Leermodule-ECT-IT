@@ -16,30 +16,24 @@
                         case "j":
                             Console.Write("Ben je een seut? ");
                             antwoord = Console.ReadLine();
-
                             switch (antwoord)
                             {
-
                                 case "j":
                                     Console.ForegroundColor = Color.Orange;
                                     Console.WriteLine("CD&V");
                                     Console.ResetColor();
                                     break;
-
                                 case "n":
                                     Console.Write("Heb je vrienden? ");
                                     antwoord = Console.ReadLine();
-
                                     switch(antwoord)
                                     {
-
                                         case "j":
                                             Console.Write("Staat je wagen, huis, ... op naam van jouw ouders? ");
                                             antwoord = Console.ReadLine();
 
                                             switch (antwoord)
                                             {
-
                                                 case "j":
                                                     Console.Write("OPEN", Color.Aqua);
                                                     Console.BackgroundColor = Color.Blue;
@@ -54,16 +48,13 @@
                                                     break;
                                             }
                                             break;
-
                                         case "n":
                                             Console.WriteLine("NVA");
                                             break;
                                     }
                                     break;
                             }
-
                             break;
-
                         case "n":
                             Console.WriteLine("VLAAMS BELANG");
                             break;
@@ -77,28 +68,22 @@
 
                     switch (antwoord)
                     {
-
                         case "j":
                             Console.ForegroundColor = Color.Green;
                             Console.WriteLine("GROEN");
                             Console.ResetColor();
                             break;
-
                         case "n":
                             Console.Write("Krijg je vaak schuld van alles? ");
                             antwoord = Console.ReadLine();
 
-
                             switch (antwoord)
                             {
-
                                 case "j":
                                     Console.ForegroundColor = Color.Red;
                                     Console.WriteLine("SPA");
                                     Console.ResetColor();
-                                   
                                     break;
-
                                 case "n":
                                     Console.Write("Geloof je nog in Sinterklaas? ");
                                     antwoord = Console.ReadLine();
@@ -109,11 +94,8 @@
                                             Console.ForegroundColor = Color.Red;
                                             Console.WriteLine("PVDA");
                                             Console.ResetColor();
-                                      
                                             break;
-
                                         case "n":
-
                                             Console.ForegroundColor = Color.Red;
                                             Console.WriteLine("BLANCO");
                                             Console.ResetColor();
@@ -125,7 +107,6 @@
 
                     }
                     break;
-                    
             }
 ```
 

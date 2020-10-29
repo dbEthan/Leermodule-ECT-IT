@@ -1,9 +1,7 @@
 # Oplossing 1
 
 ```csharp
-            double getal1;
-            double getal2;
-            double getal3;
+            double getal1, getal2, getal3;
 
             Console.Write("Kommagetal1: ");
             getal1 = double.Parse(Console.ReadLine());
