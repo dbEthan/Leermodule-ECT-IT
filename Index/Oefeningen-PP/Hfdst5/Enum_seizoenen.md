@@ -50,7 +50,7 @@
             {
                 Console.WriteLine("Warm seizoen");
             }
-            else
+            else if (seizoen == Seizoenen.Herfst) || seizoen == Seizoenen.Winter)
             {
                 Console.WriteLine( "Koud seizoen");
             }
