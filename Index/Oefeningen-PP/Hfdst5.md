@@ -5,7 +5,7 @@
 - [Ohm-berekenaar](./Hfdst5/Ohm-berekenaar.md)
 - [BankRekening controle](./Hfdst5/BankRekening_controle.md)
 - [Kleurcode weerstand naar ohm](./Hfdst5/Kleurcode_weerstand_naar_ohm.md)
-- [Orakeltje van Delphi, part deux](./Hfdst5/Kleurcode_weerstand_naar_ohm,_met_enum.md)
+- [Orakeltje van Delphi, part deux](./Hfdst5/Orakeltje_van_Delphi,part_deux.md)
 - [Casino](./Hfdst5/Casino.md)
 - [Casino 3](./Hfdst5/Casino_3.md)
 - [Schaakstuk](./Hfdst5/Schaakstuk.md)
