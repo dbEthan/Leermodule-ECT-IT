@@ -8,19 +8,12 @@
             Recyclage,
             ComputerSolver,
         }
-        enum Seizoen
-        {
-            Lente,
-            Zomer,
-            Herfst,
-            Winter
-        }
         static void Main(string[] args)
         {
-            Console.WriteLine($"Welkom in deze multitool-applicatie! \nKies een item om uit te voeren: \n1. Rekenmachine \n2. Password Tester \n3. Recyclage - Seizoenen \n4. Computer Solver");
+            Console.WriteLine($"Welkom in deze multitool-applicatie! \nKies een item om uit te voeren: \n1. Rekenmachine \n2. Password Tester \n3. Recyclage - Seizoenen \n4. Computer Solver"); //Gebruiker voert een getal van 1-4 in. 
             int input = int.Parse(Console.ReadLine());
 
-            Menu keuze = (Menu)input;
+            Menu keuze = (Menu)input; //Input van de gebruiker wordt omgezet naar enum-type Menu. 
 
             switch (keuze)
             {
