@@ -89,7 +89,7 @@ WHERE
 
 ## 7. Schrijf de SQL-instructie die in de volgende informatiebehoefte voorziet.
 
-**Toon de spelersnummer, naamen jaar van toetreding voor de spelers die vanaf 1982 zijn toegetreden.**
+**Toon de spelersnummer, namen jaar van toetreding voor de spelers die vanaf 1982 zijn toegetreden.**
 
 ```sql
 SELECT 
@@ -97,7 +97,7 @@ SELECT
 FROM
     `spelers`
 WHERE
-    `JAARTOE` = '1982'; 
+    `JAARTOE` >= '1982'; 
 ```
 
 ## 8. Schrijf de SQL-instructie die in de volgende informatiebehoefte voorziet.
