@@ -158,7 +158,7 @@
             }
             else
             {
-                prijsAfstand = Math.Round(Math.Sqrt(afstand / prijsPizza) + prijsPizza);
+                prijsAfstand = Math.Floor(Math.Sqrt(afstand / prijsPizza) + prijsPizza);
             }
             if (wiltExtra == true)
             {
