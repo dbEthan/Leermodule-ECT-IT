@@ -1,5 +1,7 @@
 # Les1
 
+Oefening 1 is het opzoeken van de verschillende tags. Ik hoop dat je dat wel kan?
+
 ## Oefening 2
 
 ```html
