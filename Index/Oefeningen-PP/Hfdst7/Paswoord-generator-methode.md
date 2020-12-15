@@ -44,6 +44,5 @@ class Program
             Console.WriteLine(RandomPassGen(input));
         }
     }
-}
 ```
 [Terug](../Hfdst7.md)
