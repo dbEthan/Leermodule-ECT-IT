@@ -5,6 +5,7 @@
 - [Databases](./Index/Vakken/Databases.md)
 - [Programming-principles](./Index/Vakken/Programming-principles.md)
 - [Web-technology](./Index/Vakken/Web-technology.md)
+- [Linux-Scripting](./Index/Vakken/Linux-Scripting.md)
 
 > Moest er een probleem zijn, stuur mij dan een berichtje op Discord `@Yorhades#6892`
 
